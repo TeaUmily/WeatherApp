@@ -7,7 +7,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 import java.util.ArrayList;
 import java.util.List;
 
-import ada.osc.myfirstweatherapp.LocationWrapper;
+import ada.osc.myfirstweatherapp.pojo.LocationWrapper;
 import ada.osc.myfirstweatherapp.ui.weatherDisplay.WeatherFragment;
 
 public class CustomViewPagerFragmentAdapter extends FragmentPagerAdapter {
@@ -40,4 +40,7 @@ public class CustomViewPagerFragmentAdapter extends FragmentPagerAdapter {
     }
 
 
+    public void updateData(List<LocationWrapper> allLocations) {
+        setAdapterData(allLocations);
+    }
 }

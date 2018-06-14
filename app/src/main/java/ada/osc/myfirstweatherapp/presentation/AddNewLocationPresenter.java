@@ -1,9 +1,6 @@
 package ada.osc.myfirstweatherapp.presentation;
 
-import android.location.Location;
-import android.util.Log;
-
-import ada.osc.myfirstweatherapp.LocationWrapper;
+import ada.osc.myfirstweatherapp.pojo.LocationWrapper;
 import ada.osc.myfirstweatherapp.interaction.ApiInteractor;
 import ada.osc.myfirstweatherapp.locationRepository.AllLocations;
 import ada.osc.myfirstweatherapp.ui.addLocation.NewLocationContract;

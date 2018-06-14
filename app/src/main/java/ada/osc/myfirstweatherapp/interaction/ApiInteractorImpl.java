@@ -1,8 +1,6 @@
 package ada.osc.myfirstweatherapp.interaction;
 
-import javax.security.auth.callback.Callback;
-
-import ada.osc.myfirstweatherapp.model.WeatherResponse;
+import ada.osc.myfirstweatherapp.pojo.WeatherResponse;
 import ada.osc.myfirstweatherapp.networking.ApiService;
 
 

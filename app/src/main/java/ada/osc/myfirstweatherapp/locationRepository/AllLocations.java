@@ -1,12 +1,10 @@
 package ada.osc.myfirstweatherapp.locationRepository;
 
-import android.util.Log;
 
-import java.util.ArrayList;
+
 import java.util.List;
-import java.util.WeakHashMap;
 
-import ada.osc.myfirstweatherapp.LocationWrapper;
+import ada.osc.myfirstweatherapp.pojo.LocationWrapper;
 import io.realm.Realm;
 import io.realm.RealmQuery;
 import io.realm.RealmResults;
